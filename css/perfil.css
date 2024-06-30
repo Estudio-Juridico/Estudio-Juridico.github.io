@@ -1,0 +1,46 @@
+/*espacio de los perfiles*/
+body::-webkit-scrollbar{
+    width: 0px; /* Ancho de la barra de desplazamiento */
+    background-color:transparent; /* Color de fondo de la barra de desplazamiento */
+}
+body{
+    /* Establecer la imagen de fondo */
+    background-image: url('/img/perfiles4.png');
+    /* Ajustar la imagen de fondo */
+    background-size: cover;
+    /* Fijar la imagen de fondo */
+    background-attachment: fixed;
+    /* Centrar la imagen de fondo */
+    background-position: center;
+    /* Superponer gradiente lineal */
+    /* Ajustar la opacidad del gradiente lineal */
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor para cambiar la opacidad */
+}
+.imgens{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+.card{
+    background-color: rgba(3, 15, 22, 0.822); /* Color blanco con opacidad del 50% */
+    color: rgb(208, 217, 224);
+}
+.im{
+    border-radius: 12px;
+}
+#lis1{
+    color: rgb(255, 255, 255);
+}
+#lis2{
+    color:rgb(255, 255, 255);
+}
+#lis3{
+    color: rgb(255, 255, 255);
+}
+#lis4{
+    color: rgb(255, 255, 255);
+}
+.tl{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}

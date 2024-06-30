@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Estudio Juridico Superior & Asoc.</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type='text/css' href="css\general.css" rel='stylesheet' />
+  <link type='text/css' href="css\stilos.css" rel='stylesheet' />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3" id="NB">
+      <div class="container-fluid">
+        <a id="lnb" class="navbar-brand" href="#principal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bank"
+            viewBox="0 0 16 16">
+            <path
+              d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z" />
+          </svg> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a id="lnb" class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a id="lnb" class="nav-link active" aria-current="page" href="#principal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-box-seam" viewBox="0 0 16 16">
+                  <path
+                    d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z" />
+                </svg> INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a id="lnb" class="nav-link active" aria-current="page" href="#nosotros">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+                </svg> NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a id="lnb" class="nav-link active" aria-current="page" href="#socios">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                </svg> STAFF</a>
+            </li>
+            <li class="nav-item ">
+              <a id="lnb" class="nav-link active" aria-current="page" href="#contactoss"
+                aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" left="92" width="15" height="15" fill="currentColor"
+                class="bi bi-telephone-inbound" viewBox="0 0 16 16">
+                <path
+                  d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+              </svg> CONTACTOS
+              </a>
+              
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div id="principal">
+      <br><br>
+      <img src="img\fondologo.png" alt="" id="imgf" class="desktop-only ">
+      <img id="logoresponsive1" src="img\circle1.png" class="mobile-only" alt="">
+      <img id="logrueda1" src="img\logrueda.png" class="mobile-only" alt="">
+      <h1 id="textResponsive" class="mobile-only">ESTUDIO JURIDICO<br>SUPERIOR & ASOC.</h1>
+    </div>
+    <div class="containerrr">
+      <h1 class="textt">Estudio Juridico<br>Superior & Asoc.<br>
+        <span id="spm">¿Nesecita Ayuda? ¡Tenemos la Solucion !!</span>
+      </h1>
+    </div>
+    <div class="contenedoor">
+      <img id="circle" src="img\circle1.png" class="desktop-only " alt="Imagen">
+      <img id="logrueda" src="img\logrueda.png" class="desktop-only " alt="Imagen">
+    </div>
+    <div id="particles-js"></div>
+    <h2 id="lasf" class="z-index-1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+        class="bi bi-chevron-double-down" viewBox="0 5 16 16">
+        <path fill-rule="evenodd"
+          d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+        <path fill-rule="evenodd"
+          d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+      </svg>
+    </h2>
+  </section>
+
+  <section id="socios" class="container-lg">
+    <h2 id="hh">NUESTROS SOCIOS</h2><br><br>
+    <div id="cont">
+      <div class="columna">
+        <br>
+        <img src="img\perfil6.jpg" id="pimg" alt="Imagen 1">
+        <br>
+        <h5 class="nombres" id="hw"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-palette2" viewBox="0 0 16 16">
+            <path
+              d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z" />
+          </svg> Dr. Johan Novay Delgadillo</h5>
+
+        <p class="descripciones">"En un mundo lleno de incertidumbre legal, estoy aquí para ser tu guía, defender tus
+          derechos y buscar
+          justicia en cada paso del camino."
+        </p><br>
+        <a href="layout/perfil.html" id="boton1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-stack-overflow" viewBox="0 0 16 16">
+            <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z" />
+            <path
+              d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z" />
+          </svg> Ver Perfil</a>
+        <br><br>
+      </div>
+      <br>
+      <div class="columna">
+        <br>
+        <img src="img\perfil4.jpg" id="pimg" alt="Imagen 1">
+        <br>
+        <h5 class="nombres" id="hw"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-palette2" viewBox="0 0 16 16">
+            <path
+              d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z" />
+          </svg> Dr. Joaquin Adalid Ugarteche Adad</h5>
+
+        <p class="descripciones">"Con el compromiso y dedicación, estoy aquí para proteger tus intereses y encontrar
+          soluciones legales que te
+          brinden paz y seguridad."
+        </p><br>
+        <a href="/layout/perfil2.html" id="boton1"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+            fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+            <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z" />
+            <path
+              d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z" />
+          </svg> Ver Perfil</a>
+        <br><br>
+      </div>
+    </div>
+    <br>
+  </section>
+
+  <section id="testHome">
+    <div class="contenido-seccion">
+      <div class="fila">
+        <div class="col izquierda">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-stack"
+              viewBox="0 0 16 16">
+              <path
+                d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z" />
+              <path
+                d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z" />
+            </svg> VISIÓN:</h3>
+          <div class="item izq">
+            <span class="casa"> <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+                class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                <path
+                  d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+              </svg> </span>
+            <p>Ser reconocido como un líder en el campo legal, destacándonos por nuestra integridad,
+              excelencia y compromiso con la justicia. Aspiramos a ser la primera opción para quienes buscan
+              asesoramiento legal confiable y soluciones efectivas, transformando la vida de
+              nuestros clientes y contribuyendo positivamente a la comunidad y la sociedad en general.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col derecha">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-stack"
+              viewBox="0 0 16 16">
+              <path
+                d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z" />
+              <path
+                d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z" />
+            </svg> MISIÓN: </h3>
+          <div class="item der">
+            <span class="casa"> <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+                class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                <path
+                  d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+              </svg> </span>
+            <p>Nuestra misión es proporcionar asesoramiento jurídico de alta calidad, orientado a
+              resultados, y representación legal efectiva para nuestros clientes. Nos comprometemos
+              a entender las necesidades y metas individuales de cada cliente y a trabajar incansablemente
+              para proteger sus derechos, resolver sus problemas legales y alcanzar los mejores resultados
+              posibles en cada caso. Nos esforzamos por mantener altos estándares éticos y profesionales,
+              promoviendo la justicia y la equidad en todo momento. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topics" id="topics" aria-labelledby="topic-label">
+    <div class="container">
+
+      <div class="card topic-card">
+
+        <div class="card-content">
+
+          <h2 class="headline headline-2 section-title card-title" id="topic-label">
+            Imagenes Destacadas
+          </h2>
+
+          <p class="card-text">
+            Reflejo de nuestros servicios y xperiencias y más...
+          </p>
+
+          <div class="btn-group">
+            <button class="btn-icon" aria-label="previous" data-slider-prev>
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+              </svg>
+            </button>
+
+            <button class="btn-icon" aria-label="next" data-slider-next>
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="slider" data-slider>
+          <ul class="slider-list" data-slider-container>
+
+            <li class="slider-item">
+              <a class="slider-card">
+
+                <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                  <img src="img/13.jpg" width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+                </figure>
+
+                <div class="slider-content">
+                  <span class="slider-title">Buenas Relaciones</span>
+
+                  <p class="slider-subtitle">Articles</p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="slider-item">
+              <a class="slider-card">
+
+                <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                  <img src="img/defensa.jpg" width="507" height="618" loading="lazy" alt="Travel" class="img-cover">
+                </figure>
+
+                <div class="slider-content">
+                  <span class="slider-title">Buenas Desiciones</span>
+
+                  <p class="slider-subtitle">Articles</p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="slider-item">
+              <a class="slider-card">
+
+                <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                  <img src="img/representacion.jpg" width="507" height="618" loading="lazy" alt="Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="slider-content">
+                  <span class="slider-title">Las Mejores Redacciones</span>
+
+                  <p class="slider-subtitle">Articles</p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="slider-item">
+              <a class="slider-card">
+
+                <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                  <img src="img/asesoramiento.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                    class="img-cover">
+                </figure>
+
+                <div class="slider-content">
+                  <span class="slider-title">Buenas Experiencias</span>
+
+                  <p class="slider-subtitle">Articles</p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="slider-item">
+              <a class="slider-card">
+
+                <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                  <img src="img/estudio.jpg" width="507" height="618" loading="lazy" alt="Lifestyle" class="img-cover">
+                </figure>
+
+                <div class="slider-content">
+                  <span class="slider-title">El Mejor Estudio</span>
+
+                  <p class="slider-subtitle">Articles</p>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section><br><br>
+
+  <section id="nosotros" class="testHome">
+    <div class="imgTesHome">
+      <h2 class="testHomeTitulo"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+          class="bi bi-bank2" viewBox="0 0 16 16">
+          <path
+            d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916zM12.375 6v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2M.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1z" />
+        </svg> SOBRE NOSOTROS <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+          class="bi bi-bank2" viewBox="0 0 16 16">
+          <path
+            d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916zM12.375 6v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2M.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1z" />
+        </svg>
+      </h2>
+      <h2 class="testHomeSubT">Descubre Nuestros Servicios</h2>
+    </div><br><br><br><br><br><br><br><br><br><br>
+    <div class="descripTest">
+      <p class="testHomeTexto">
+        "En nuestro bufete de abogados, combinamos experiencia, pasión
+        y compromiso para ofrecerte soluciones legales personalizadas y
+        resultados excepcionales. Tu confianza es nuestra prioridad, y
+        estamos aquí para representarte con integridad y excelencia en
+        cada etapa de tu camino legal."
+      </p>
+      <a class="boto" href="#curriculum">Ver Servicios</a>
+    </div>
+  </section>
+  <br><br>
+
+
+  <!-- SECCION CURRICULUM -->
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+      <h2>REALIZAMOS LOS SERVICIOS</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>AREA DE</h3>
+          <div class="item izq">
+            <span class="casa">Derecho al Consumidor</span>
+            <p>Acciones individuales y colectivas encaminadas a proteger los derechos de los consumidores - Autoplanes
+              - Cancelación de pasajes - Cancelación de compras online - Viviendas prefabricadas - Estafas.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <span class="casa">Daños y Perjuicios</span>
+            <p>Representación de damnificados en virtud de incumplimientos tanto contractuales como
+              extracontractuales de toda índole, especialmente aquellos derivados de accidentes de
+              tránsito y conflictos suscitados en la vía pública - Inclusión de los rubros pertinentes
+              en reclamos de otras índoles. </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <span class="casa">Derecho Societario</span>
+            <p>Asistimos en forma integral a nuestros clientes en lo atinente a constitución,
+              modificación y extinción de sociedades - Resolución de conflictos societarios - Tramites
+              ante IPJ - Registro de marcas - Asesoramiento legal constante.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <span class="casa">Derechos Reales</span>
+            <p>Asesoramiento y asistencia jurídica en la adquisición, modificación y extinción de
+              derechos reales, así como también apoyo legal en conflictos derivados de tales derechos -
+              Usucapión - Escrituraciones - Usurpaciones.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <span class="casa">Amparos de Salud</span>
+            <p>Gestiones administrativas y judiciales rápidas y efectivas tendientes a la protección
+              integral de la salud de las personas frente a incumplimientos por parte de mutuales y obras
+              sociales - Cumplimiento de PMO - Fertilización asistida - Discapacidad.</p>
+
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <span class="casa">Derecho de Familia</span>
+            <p>Asistimos a nuestros clientes en cuestiones familiares sean estas conflictivas o no,
+              con especial énfasis en la resolución alternativa de conflictos. Divorcio unilateral
+              y bilateral - Divorcio Express - Compensaciones económicas - Cuotas alimentareas - Bien de
+              familia - Adopciones - Acciones filiatorias - Régimen de visitas.</p>
+
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col derecha">
+          <h3>AREA DE: </h3>
+          <div class="item der">
+            <span class="casa">Derecho Administrativo</span>
+            <p>Asesoramiento y asistencia jurídica en conflictos con la administración pública - Multas - Licencias -
+              Amparos por mora - Pronto despacho. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <span class="casa">Derecho Penal</span>
+            <p>Realizamos la representación de personas damnificadas y/o que se encuentran investigadas
+              por delitos contra personas, orden público, libertad individual - Nuestros abogados penalistas
+              cuentan con experiencia en materia recursiva, revisamos sentencias,
+              presentación de recursos en Casación, Extraordinario y Corte Suprema. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <span class="casa">Drerecho Tributarios</span>
+            <p>Análisis legal de situaciones impositivas - Presentación de declaraciones juradas -
+              Defensas ante procedimientos de determinación - Configuración de delitos tributarios. </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <span class="casa">Derecho Concursal</span>
+            <p>Asoramiento y asistencia jurídica en cuestiones falenciales conforme lo prescripto por
+              la Ley de Concursos y Quiebras y enfocados en la optimización de costos para nuestros
+              clientes - Presentación de acreencias en procesos falenciales - Asistencia y representación
+              de síndicos.</p>
+
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <span class="casa">Derecho Laboral</span>
+            <p>Asistencia integral en lo atienente al Derecho del Trabajo y la Seguridad Social -
+              Intercambio epistolar - Trabajo en negro - Indemnizaciones - Despidos - Accidentes y
+              enfermedades laborales.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <span class="casa">Contratos</span>
+            <p>Gestión integral de la confección, desarrollo y conclusión de contratos de las diversas áreas de
+              trabajo que los clientes deban suscribir -
+              Especial énfasis en la previsibilidad de situaciones conflictivas a futuro - Fideicomisos.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <h3 id="hh" class="text-center py-5">¡COMUNICATE CON NOSOTROS!</h3>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-1">
+        <div class="col-lg-5 pb-2">
+          <div class="parent">
+            <div class="cardt">
+              <div class="logo">
+                <span class="circle circle1"></span>
+                <span class="circle circle2"></span>
+                <span class="circle circle3"></span>
+                <span class="circle circle4"></span>
+                <span class="circle circle5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                  </svg>
+                </span>
+
+              </div>
+              <div class="glass"></div>
+              <div class="content">
+                <h5 class="card-title" style="color:rgb(233, 151, 28); font-size: 25px; font-weight: 900;">ESTUDIO
+                  JURIDICO<br>SUPERIOR & ASOC.</h5>
+                <span class="text">Estamos a su competa disposición puede encontrarnos en la
+                  ubicación y llamar
+                  a nuestro numero oh hacer
+                  consutlas
+                  a nuestro
+                  whatsapp
+                  nos encontramos en
+
+                  Calle 18 de noviembre esquina Antonio vaca Diez N°293
+                </span><br>
+                <div class="row">
+                  <a href="http://api.whatsapp.com/send?phone=72841551&text=Hola,quiero-agendar-un-servicio!"
+                    target="_blank" rel="noopener" class="btn btn-outline-success">
+                    <svg class="a" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path
+                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>whatsapp</a> ||
+                  <a href="mailto:johancyt_13@gmail.com" target="_blank" rel="noopener" class="btn btn-outline-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                      class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                      <path
+                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                    </svg> Correo</a>
+
+                </div>
+
+
+              </div>
+              <div class="bottom">
+
+                <div class="social-buttons-container">
+                  <button class="social-button .social-button1">
+                    <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="svg">
+                      <path
+                        d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+                      </path>
+                    </svg></button>
+                  <button class="social-button .social-button2">
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="svg">
+                      <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                      </path>
+                    </svg>
+                  </button>
+                  <button class="social-button .social-button3">
+                    <svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" class="svg">
+                      <path
+                        d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="view-more">
+                  <button class="view-more-button">View more</button>
+                  <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Contact Form -->
+        <div class="col-lg-7">
+
+          <div class="info-wrap">
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3856.8409540324715!2d-64.90904307710834!3d-14.834181754527835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDUwJzAyLjUiUyA2NMKwNTQnMjEuNyJX!5e0!3m2!1ses!2sbo!4v1716060420520!5m2!1ses!2sbo"
+              frameborder="0"
+              style="border:0; width: 100%; height: 470px; padding:20px; border-radius:10px; border:1px solid rgba(243, 166, 94, 0.281); background-color:rgb(2, 9, 31);"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SECCTION C O N T A C T O -->
+  <section id="contact" class="contact section"><br><br><br>
+
+    <div class="container">
+
+      <footer class="text-center text-lg-start  mt-xl-5 pt-4">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <a href="#!" class="text-white">About us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Collections</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Environmental philosophy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Artist collaborations</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Assistance</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Contact us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Size Guide</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Shipping Information</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Returns & Exchanges</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Payment</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Careers</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Jobs</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+
+              <button type="submit" class="btn btn-outline-warning btn-block">Subscribe</button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 border-top ">
+          <a class="text-white" href="https://github.com/sergio-14?tab=repositories">Sergio Webs Services..</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="js/general.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
